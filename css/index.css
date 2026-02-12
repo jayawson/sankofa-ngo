@@ -1,0 +1,178 @@
+  :root {
+    --bg-color: #161819;
+    --bg-deep: #0d1011;
+    --surface-color: #252728;
+    --primary-color: #ffff;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .main-container {
+    width: 100%;
+    background-color: var(--primary-color);
+  }
+
+  .navigation-bar {
+    background-color: #fbf7f7;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .sankofa-logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 5rem;
+  }
+
+  .menu-list {
+    display: inline-flex;
+    justify-content: right;
+    align-content: space-evenly;
+    padding: 1.3rem;
+    margin-right: 5rem;
+  }
+
+  .menu-list li,
+  a {
+    color: #292113;
+    list-style: none;
+    cursor: pointer;
+    padding: 7px;
+    text-decoration: none;
+
+  }
+
+  .menu-list li a:hover {
+    color: #1f1707;
+    font-weight: bold;
+  }
+
+  .menu-list li a.donate {
+    color: aliceblue;
+    background-color: #292113;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .banner {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/images/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-position: 60% 40%;
+    opacity: 0.8;
+    align-items: end;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  .banner span {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .banner span:hover {
+    background-color: #d8d5cf;
+    color: #561912;
+  }
+
+  .volunteer {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    background-color: #bc7c0c;
+    color: #dcd3d2;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .current-project-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+
+  }
+
+  .current-projects {
+    display: flex;
+  }
+
+  .info-current-project {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #bc7c0c;
+
+  }
+
+  .card-project {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 30%;
+    border-radius: 15px;
+    border-color: #bc7c0c;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .card-project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  .info-project-start-date {
+    display: inline-flex;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  .info-project-start-date p {
+    margin-left: 5px;
+    font-size: 12px;
+
+  }
+
+  .info-project-start-date span i {
+    color: #654611;
+  }
+ .card-project > p {
+  font-size: 20px;
+    font-weight: bold;
+  }
+  .card-project a {
+    align-self: self-start;
+    border: none;
+    border-radius: 5px;
+    background-color: #bc7c0c;
+    color: #ffff;
+    padding: 10px 20px;
+    margin: 10px 0px;
+  }
+
+  footer {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+  }
