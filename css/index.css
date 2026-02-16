@@ -102,7 +102,6 @@
     justify-content: center;
     margin: auto;
     padding: 20px;
-
   }
 
   .current-projects {
@@ -176,11 +175,9 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 400px;
     justify-content: center;
     margin: auto;
     padding: 30px;
-    margin-top: 20px;
     background-color: #f7f4f2;
   }
 
@@ -198,7 +195,7 @@
   }
 
   .past-project-container-items img {
-    width: 90%;
+    width: 70%;
     height: 100%;
     object-fit: cover;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -206,14 +203,49 @@
   }
 
   .past-project-information {
+    display: flex;
+    flex-direction: column;
     margin-left: 10px;
 
+  }
+
+  .past-project-information a {
+    width: 120px;
+    justify-self:end;
+    border: none;
+    border-radius: 5px;
+    background-color: #bc7c0c;
+    color: #ffff;
+    padding: 10px 20px;
+    margin: 10px 0px;
   }
 
   .past-project-information p {
     color: #161819;
     padding: 20px;
 
+  }
+
+  .our-partners-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:30px;
+  }
+
+  .partners-header {
+    display: flex;
+    background-color: transparent;
+    color: #292113;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partners-header p {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+   text-shadow:  0px 3px 3px rgba(255,255,255,0.5)
   }
 
   .partners-logo {
