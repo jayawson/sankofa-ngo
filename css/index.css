@@ -156,10 +156,12 @@
   .info-project-start-date span i {
     color: #654611;
   }
- .card-project > p {
-  font-size: 20px;
+
+  .card-project>p {
+    font-size: 20px;
     font-weight: bold;
   }
+
   .card-project a {
     align-self: self-start;
     border: none;
@@ -170,9 +172,54 @@
     margin: 10px 0px;
   }
 
+  .past-project-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #f7f4f2;
+  }
+
+  .odd {
+    background-color: transparent;
+  }
+
+  .past-project-container-items {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 15px;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .past-project-container-items img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+  }
+
+  .past-project-information {
+    margin-left: 10px;
+
+  }
+
+  .past-project-information p {
+    color: #161819;
+    padding: 20px;
+
+  }
+
   footer {
     display: flex;
     height: 200px;
     width: 100%;
-    background-color: aqua;
+    background-color: #292113;
+    margin-top: 50px;
   }
