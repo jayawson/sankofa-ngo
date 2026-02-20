@@ -1,14 +1,14 @@
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
   :root {
     --bg-color: #161819;
     --bg-deep: #0d1011;
     --surface-color: #252728;
     --primary-color: #ffff;
-  }
-
-  * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
   }
 
   .main-container {
@@ -205,31 +205,30 @@
   .past-project-information {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 30px;
 
   }
 
   .past-project-information a {
     width: 120px;
-    justify-self:end;
+    justify-self: end;
     border: none;
     border-radius: 5px;
     background-color: #bc7c0c;
     color: #ffff;
     padding: 10px 20px;
-    margin: 10px 0px;
+    margin: 20px 0px;
   }
 
   .past-project-information p {
     color: #161819;
-    padding: 20px;
-
+    margin-top: 10px;
   }
 
   .our-partners-container {
     display: flex;
     flex-direction: column;
-    margin-bottom:30px;
+    margin-bottom: 30px;
   }
 
   .partners-header {
@@ -245,7 +244,7 @@
     font-weight: bold;
     padding: 10px;
     margin: 5px;
-   text-shadow:  0px 3px 3px rgba(255,255,255,0.5)
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5)
   }
 
   .partners-logo {
@@ -266,8 +265,72 @@
 
   footer {
     display: flex;
-    height: 200px;
     width: 100%;
     background-color: #292113;
     margin-top: 50px;
+    justify-content: center;
+  }
+
+  .footer-item-a {
+    width: 20%;
+    border: #d8d5cf solid 2px;
+    color: #fbf7f7;
+  }
+
+  .footer-contact {
+    display: flex;
+    padding: 15px;
+  }
+
+  .footer-contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .footer-contact-container h2 {
+    margin: 5px 0px 0px 10px;
+  }
+
+  .call-info {
+    display: flex;
+    margin: 5px 10px;
+  }
+
+  .call-info i {
+    align-self: center;
+    margin-left: 5px;
+  }
+
+  .call-info-details {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 10px;
+  }
+
+  .call-info-details p {
+    margin: 2px;
+  }
+
+  .footer-contact-social-media {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .footer-contact-social-media span {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+  }
+
+  .footer-contact-social-media span i {
+    color: rgb(115, 47, 47);
+
   }
