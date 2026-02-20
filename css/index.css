@@ -1,6 +1,6 @@
   * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
 
@@ -71,11 +71,11 @@
     object-position: 60% 40%;
     opacity: 0.8;
     align-items: end;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
   }
 
   .banner span {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
 
   .banner span:hover {
@@ -137,7 +137,7 @@
     object-fit: cover;
     border-radius: 15px;
     margin-bottom: 15px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
   }
 
   .info-project-start-date {
@@ -162,13 +162,13 @@
   }
 
   .card-project a {
-    align-self: self-start;
+    align-self:flex-start;
     border: none;
     border-radius: 5px;
     background-color: #bc7c0c;
     color: #ffff;
     padding: 10px 20px;
-    margin: 10px 0px;
+    margin: 10px 0;
   }
 
   .past-project-container {
@@ -198,7 +198,7 @@
     width: 70%;
     height: 100%;
     object-fit: cover;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
 
   }
 
@@ -211,13 +211,13 @@
 
   .past-project-information a {
     width: 120px;
-    justify-self: end;
+    /*justify-self:flex-end;*/
     border: none;
     border-radius: 5px;
     background-color: #bc7c0c;
     color: #ffff;
     padding: 10px 20px;
-    margin: 20px 0px;
+    margin: 20px 0;
   }
 
   .past-project-information p {
@@ -244,7 +244,7 @@
     font-weight: bold;
     padding: 10px;
     margin: 5px;
-    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5)
+    text-shadow: 0 3px 3px rgba(255, 255, 255, 0.5)
   }
 
   .partners-logo {
@@ -259,7 +259,7 @@
   .partners-logo img {
     width: 100px;
     height: 100px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
     border-radius: 5px;
   }
 
@@ -288,8 +288,8 @@
     width: 80%;
   }
 
-  .footer-contact-container h2 {
-    margin: 5px 0px 0px 10px;
+  .footer-contact-container .header {
+    margin: 5px 0 0 10px;
   }
 
   .call-info {
