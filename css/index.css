@@ -29,7 +29,7 @@
     margin-left: 5rem;
   }
 
-  .menu-list {
+  .menu-list ul{
     display: inline-flex;
     justify-content: flex-end;
     align-content: space-evenly;
@@ -37,7 +37,7 @@
     margin-right: 5rem;
   }
 
-  .menu-list li,
+  .menu-list ul>li,
   a {
     color: #292113;
     list-style: none;
